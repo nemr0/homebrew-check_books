@@ -10,5 +10,4 @@ class CheckBooks < Formula
     bin.install "check_books" => "checkBooks"
   end
 
-  end
 end
