@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-21T14:13:09.143425",
+  "count": 1,
+  "directory": ".",
+  "troubled_books": [],
+  "healthy_books": [
+    {
+      "path": "./14613051/14613051.xml",
+      "bookId": "14613051",
+      "language": "ja"
+    }
+  ]
+}
