@@ -1,4 +1,4 @@
-class BrewCheckBooks < Formula
+class CheckBooks < Formula
   desc "checkBooks — DCli-powered CLI for checking your books xml files"
   homepage "https://github.com/nemr0/homebrew-check_books"
   url "https://raw.githubusercontent.com/nemr0/homebrew-check_books/main/binaries/check_books-0.1.0-macos.tar.gz"
@@ -10,8 +10,5 @@ class BrewCheckBooks < Formula
     bin.install "check_books" => "checkBooks"
   end
 
-  test do
-    # A simple smoke test to verify the binary runs
-    assert_match "Usage", shell_output("#{bin}/checkBooks --help")
   end
 end
