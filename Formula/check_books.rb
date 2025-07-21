@@ -6,8 +6,8 @@ class CheckBooks < Formula
   license "MIT"
 
   def install
-    # Rename the binary to `checkBooks` on install
-    bin.install "check_books" => "checkBooks"
+    # Install the original binary only
+    bin.install "check_books"
   end
 
 end
